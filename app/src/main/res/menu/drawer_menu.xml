@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/drawer_login"
+            android:icon="@drawable/ic_login_24dp"
+            android:title="Login"/>
+        <item android:id="@+id/drawer_home"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="Home"/>
+        <item android:id="@+id/drawer_address"
+            android:icon="@drawable/ic_address_24dp"
+            android:title="Addresses"/>
+        <item android:id="@+id/drawer_myorders"
+            android:icon="@drawable/ic_orders_24dp"
+            android:title="My Orders"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/drawer_contactus"
+                android:icon="@drawable/ic_contact_24dp"
+                android:title="Contact Us"/>
+            <item android:id="@+id/drawer_rateus"
+                android:icon="@drawable/ic_star_24dp"
+                android:title="Rate us"/>
+        </menu>
+    </item>
+</menu>
